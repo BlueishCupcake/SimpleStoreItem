@@ -1,5 +1,5 @@
-//components
-import SimpleCard from "components/SimpleCard";
+//Pages
+import CardsList from "page/CardsList";
 
 //Styles
 import "./App.css";
@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <SimpleCard />
+      <CardsList />
     </div>
   );
 }
