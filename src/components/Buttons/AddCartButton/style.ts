@@ -24,7 +24,19 @@ export const ButtonBody = styled.button<ButtonProps>`
   transition: 0.3s;
   cursor: pointer;
 
+  svg {
+    stroke: #000;
+    fill: #a3f9b9;
+    transition: 0.3s;
+    margin-right: 16px;
+  }
+
   &:hover {
+    svg {
+      stroke: #fff;
+      fill: #1c6c3e;
+    }
+
     background: #1c6c3e;
     color: #fff;
   }

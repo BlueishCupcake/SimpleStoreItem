@@ -15,6 +15,10 @@ export const WishButtonStyled = styled.button<ButtonProps>`
   width: 48px;
   height: 48px;
   transition: 0.3s;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
 
   svg {
     transition: 0.3s;
